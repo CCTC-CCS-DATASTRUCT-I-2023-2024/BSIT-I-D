@@ -1,22 +1,23 @@
 #include <iostream>
+using namespace std;
 
-int main() {
-   
-    double num1, num2, result;
+int main(){
 
-    std::cout << "Enter the first number: ";
-    std::cin >> num1;
-    std::cout << "Enter the second number: ";
-    std::cin >> num2;
+    int num1, num2;
 
-    result = num1 + num2; // Addition
-    std::cout << "Sum = " << result << std::endl;
-    
-    result = num1 - num2; // Subtraction
-    std::cout << "Difference = " << result << std::endl;
-    
-    result = num1 * num2; // Multiplication
-    std::cout << "Product = " << result << std::endl;
+    cout << "Enter first number: ";
+    cin >> num1;
+
+    cout << "Enter second number: ";
+    cin >> num2;
+
+    int sum = num1 + num2;
+    int diff = num1 - num2;
+    int prod = num1*num2;  
+
+    cout << "Sum = " << sum << endl;
+    cout << "Difference = " << diff << endl;
+    cout << "Product = " << prod << endl;
 
     return 0;
 }
