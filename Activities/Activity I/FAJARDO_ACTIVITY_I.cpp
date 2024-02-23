@@ -10,10 +10,10 @@ int main()  {
     int diff = b - a;
     int quotient = c / a;
 
-    cout << "Sum " << sum; 
-    cout << "Prod " << prod;
-    cout << "Diff " << diff; 
-    cout << "Quotient " << quotient; 
+    cout << "Sum " << sum << endl; 
+    cout << "Prod " << prod << endl;
+    cout << "Diff " << diff << endl; 
+    cout << "Quotient " << quotient << endl; 
 
  
 
