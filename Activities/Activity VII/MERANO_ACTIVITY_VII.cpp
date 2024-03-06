@@ -7,7 +7,7 @@ int main(){
     long sum;
 
     cout << "Enter your number: ";
-    cin >> fac;
+    cin >> num;
 
     for(long i = 1; i <= num; i++){
          sum += i;
