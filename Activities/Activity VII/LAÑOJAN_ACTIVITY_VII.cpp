@@ -1,17 +1,15 @@
 #include <iostream>
+
 using namespace std;
 
 int main(){
+    int n, sum = 0;
 
-    int num;
+    cout<<"Enter your number: ";
+    cin>>n;
 
-    cout << "Enter your number: ";
-    cin >> num;
-
-    long sum;
-
-    for(int i = 1; i <= num; i++){
-         sum += i;
-    }         
-     cout << "The sum of all whole numbers from 1 to " << num << " is " << sum << endl;
+    for(int i = 1; i <=n; i++){
+        sum +=i;
+    }
+    cout<< "The Sum of all whole number from 1 to"<<n<<" is "<<sum<<endl;
 }
