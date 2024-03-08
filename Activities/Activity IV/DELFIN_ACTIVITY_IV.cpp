@@ -1,0 +1,27 @@
+#include <iostream>
+
+int main() {
+   
+    int choice;
+    cout << "Enter your choice (1: Espresso, 2: Americano, 3: Cappuccino, 4: Latte): ";
+    cin >> choice;
+    
+    switch (choice) {
+        case 1:
+            cout << "Espresso" << endl;
+            break;
+        case 2:
+            cout << "Americano" << endl;
+            break;
+        case 3:
+            cout << "Cappuccino" << endl;
+            break;
+        case 4:
+            cout << "Latte" << endl;
+            break;
+        default:
+            cout << "Invalid choice" << endl;
+    }
+    
+    return 0;
+}
