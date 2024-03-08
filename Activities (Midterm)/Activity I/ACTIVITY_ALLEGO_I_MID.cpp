@@ -16,7 +16,7 @@ int position;
 cin >> position;
 
 
-if (position >= && position <=5) {
+if (position >= 1 && position <=5) {
     cout << "You have selected " << names [position - 1] << ",";
 }else{
     cout << "Invalid Index;";
