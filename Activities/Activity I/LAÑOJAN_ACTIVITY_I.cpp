@@ -8,8 +8,8 @@ int diff = a-b;
 int product = a*b*c;
 int quo = a*b;
 cout<<"sum is" << sum <<endl;
-cout<<"sum is" << diff <<endl;
-cout<<"sum is" << product <<endl;
-cout<<"sum is" << quo <<endl;
+cout<<"fiff is" << diff <<endl;
+cout<<"product is" << product <<endl;
+cout<<"quotient is" << quo <<endl;
 return 0;
 }
