@@ -17,7 +17,7 @@ int main() {
     if (num >= 1 && num<= 5) {
         cout << "Selected name: " << names[num - 1] << endl;
     } else {
-        cout << "Sorry, your selection is invalid . Please try again." << endl;
+        cout << "Sorry, your selection is invalid . Please try again bobo!." << endl;
     }
 
 }
