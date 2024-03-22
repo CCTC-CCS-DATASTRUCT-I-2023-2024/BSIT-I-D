@@ -17,5 +17,4 @@ int main() {
     double average = (double) (sum) / 25;
     cout << "Average of all scores: " << average << endl;
     
-    return 0;
 }
