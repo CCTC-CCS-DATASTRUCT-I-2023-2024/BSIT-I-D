@@ -13,7 +13,7 @@ int main() {
         for(double s: scores){
             sum += s;
         }
-        double average =  sum / scores[s];
+        double average =  sum / 10;
         cout << "Average Score: " << average;
 
 }
